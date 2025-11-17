@@ -1,0 +1,116 @@
+# for this pattern
+# * 
+# * *
+# * * *
+# # * * * *
+# # * * * * *
+# for i in range(0,5):
+#     for j in range(i+1):
+#         print("*", end=" ")
+#     print()
+# __________________________________________________
+
+# for this pattern
+# * * * * * 
+# * * * * *
+# * * * * *
+# * * * * *
+# * * * * *
+# for i in range(0,5):
+    # for j in range(0,5):
+    #     print("*", end=" ")
+    # print()
+# __________________________________________
+# * * * * * 
+# * * * *
+# * * *
+# * *
+# *
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print("*", end="")
+#     print()
+# __________________________________________________
+# *
+# * *
+# * * *
+# * * * *
+# * * * * *
+# * * * *
+# * * *
+# * *
+# for i in range(0,6):
+#     for j in range(i+1):
+#         print("*", end=" ")
+#     print()
+# for i in range(5,0,-1):
+#     for j in range(i):
+#         print("*",end=" ")
+#     print()
+# __________________________________________________
+
+# for this pattern
+# 1 
+# 1 2
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+# for i in range(1,6):
+#     for j in range(1,i+1):
+#         print(j, end=" ")
+#     print()
+
+# __________________________________________________
+# 6 5 4 3 2 1 
+# 5 4 3 2 1
+# 4 3 2 1
+# 3 2 1
+# 2 1
+# 1
+# for i in range(6,0,-1):
+#     for j in range(i,0,-1):
+#         print(j, end=" ")
+#     print()
+# __________________________________________________
+# n=5
+# for i in range(n):
+#     for j in range(i,n):
+#         print('',end="")
+#     print()
+#     for j in range(i+1):
+#         print("*",end="")
+# # print()
+
+
+#___________________________________________________
+# this code is for the pyramid pattern 
+# n = 5
+# for i in range(n):
+#     # Spaces
+#     for j in range(i, n - 1):
+#         print(" ", end="")
+#     # Stars
+#     for j in range(i+1):
+#         print("*", end=" ")
+#     print()
+
+# _____________________________________________________
+#this code is for the kite pattern
+n= 5
+for i in range(n):
+    # Spaces
+    for j in range(i, n - 1):
+        print(" ", end="")
+    # Stars
+    for j in range(i+1):
+        print("*", end=" ")
+    print()
+# for this pattern
+for i in range(n-1, 0, -1):
+    # Spaces
+    for j in range(n-1, i-1, -1):
+        print(" ", end="")
+    # Stars
+    for j in range(i):
+        print("*", end=" ")
+    print()
