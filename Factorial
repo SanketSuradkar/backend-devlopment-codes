@@ -1,3 +1,5 @@
+in this code the number is the each sum of the previous numebr which gets add and add to form the febonachi series 
+
 def fact(n):
     f =1 
     for i in range(1,n+1):
