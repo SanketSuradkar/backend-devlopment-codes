@@ -1,3 +1,5 @@
+// In this code the number is the each sum of the previous numebr which gets add and add to form the febonachi series 
+
 def fib(n):
     a= 0
     b= 1
