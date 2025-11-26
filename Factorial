@@ -1,4 +1,4 @@
-in this code the number is the each sum of the previous numebr which gets add and add to form the febonachi series 
+this code multipleies the number by itself until it gets finisher , this is the basic code for the factorial..
 
 def fact(n):
     f =1 
